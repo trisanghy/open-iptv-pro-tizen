@@ -4,7 +4,7 @@
 
 ## Tình trạng
 
-**Chưa có GitHub Release Latest. Không nhập repository này vào TizenBrew Installer để cài đặt cho đến khi có release chứa WGT đã ký và được kiểm thử trên TV.** WGT phiên bản 0.1.52 trong [Actions run 45300343037](https://github.com/trisanghy/open-iptv-pro/actions/runs/45300343037) là bản **UNSIGNED**, dùng để ký; không phải gói cài đặt.
+**Chưa có GitHub Release Latest. Không nhập repository này vào TizenBrew Installer để cài đặt cho đến khi có release chứa WGT đã ký và được kiểm thử trên TV.** WGT phiên bản 0.1.52 trong [Actions run 45303120659](https://github.com/trisanghy/open-iptv-pro/actions/runs/45300343037) là bản **UNSIGNED**, dùng để ký; không phải gói cài đặt.
 
 Samsung UA65AU8000KXXV chạy Tizen 6.0: TizenBrew Installer 1.1.3 đọc `GET /repos/trisanghy/open-iptv-pro-tizen/releases/latest` và chọn asset `.wgt` đầu tiên. Trên Tizen 6.0, Installer không tự ký lại WGT. Do đó cần chữ ký Samsung TV hợp lệ, gồm author và distributor certificate có DUID của TV, trước khi tạo release. Không đưa file `.p12`, mật khẩu, access token hoặc private key vào Git, Release hay issue.
 
